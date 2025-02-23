@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>3rd Solo</title>
+</head>
+<body>
+    <div id="main">
+        <h1 class="hero-h1" id="title-1">Generate a</h1>
+        <h1 class="hero-h1" id="title-2">random password</h1>
+        <p id="sub-title">Never use an insecure password again.</p>
+        <button id="generate-btn" onclick="generatePassword()">Generate passwords</button>
+        <div id="style-div"></div>
+        <div id="password">
+            <button class="password-btn" id="password-btn-1" onclick="copyText(this)"></button>
+            <button class="password-btn" id="password-btn-2" onclick="copyText(this)"></button>
+        </div>
+        <div id="footer">
+            <p id="p-one" class="footer-p"></p>
+            <p id="p-two" class="footer-p"></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
